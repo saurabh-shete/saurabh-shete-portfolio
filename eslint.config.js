@@ -19,12 +19,6 @@ export default [
     },
     settings: {
       react: { version: "18.3" },
-      "import/resolver": {
-        alias: {
-          map: [["@", "./src"]],
-          extensions: [".js", ".jsx", ".ts", ".tsx"],
-        },
-      },
     },
     plugins: {
       react,
