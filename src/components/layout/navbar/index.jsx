@@ -1,6 +1,6 @@
 import React from "react";
 
-const index = () => {
+const Navbar = () => {
   return (
     <nav className="flex items-center justify-center h-[30px] bg-[#1f2428] px-[8px] subpixel-antialiased border-b border-solid border-[#191d20]">
       <img
@@ -29,4 +29,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Navbar;
