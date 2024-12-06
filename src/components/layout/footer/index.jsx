@@ -1,8 +1,8 @@
 import React from "react";
 
-const index = () => {
+const Footer = () => {
   return (
-    <footer className="absolute flex items-center justify-between text-[9.6px] sm:text-[12.8px] w-screen h-[25px] bottom-0 border-t border-[#1b1f23] text-[#e1e4e8] px-2">
+    <footer className="flex items-center justify-between text-[9.6px] sm:text-[12.8px] w-screen h-[25px] bottom-0 border-t border-[#1b1f23] text-[#e1e4e8] px-2">
       <div className="flex items-center">
         <a
           className="flex items-center h-6 mr-2 px-[3.2px]  cursor-pointer text-white hover:bg-[#4f4f52] font-semibold"
@@ -143,4 +143,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Footer;
